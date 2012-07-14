@@ -19,7 +19,7 @@ require.config({
         "jquery.jcarousel.autoscroll": "../../plugins/autoscroll/src/jquery.jcarousel.autoscroll"
     }
 });
-require(["jquery", "jquery.jcarousel.autoscroll"], function($) {
+require(["jquery", "jquery.jcarousel",  "jquery.jcarousel.autoscroll"], function($) {
     $('#jcarousel1').jcarousel({
         wrap: 'first'
     });
@@ -29,7 +29,7 @@ require(["jquery", "jquery.jcarousel.autoscroll"], function($) {
 </head>
 <body>
 
-    <h2>animation: fast</h2>
+    <h2>RequireJS</h2>
     <div class="jcarousel-skin-default">
         <div class="jcarousel" id="jcarousel1">
             <ul>
